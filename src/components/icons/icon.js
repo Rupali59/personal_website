@@ -17,6 +17,7 @@ import {
   IconTwitter,
   IconZap,
 } from '@components/icons';
+import IconKaggle from './kaggle';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -34,6 +35,8 @@ const Icon = ({ name }) => {
       return <IconGitHub />;
     case 'Instagram':
       return <IconInstagram />;
+    case 'Kaggle':
+      return <IconKaggle />;
     case 'Linkedin':
       return <IconLinkedin />;
     case 'Loader':
